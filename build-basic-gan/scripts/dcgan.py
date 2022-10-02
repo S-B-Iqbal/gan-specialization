@@ -181,8 +181,7 @@ batch_size = 128
 # A learning rate of 0.0002 works well on DCGAN
 lr = 0.0002
 
-# These parameters control the optimizer's momentum, which you can read more about here:
-# https://distill.pub/2017/momentum/ but you don’t need to worry about it for this course!
+
 beta_1 = 0.5 
 beta_2 = 0.999
 device = 'cuda'
